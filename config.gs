@@ -1,0 +1,1 @@
+const LINE_NOTIFY_ACCESS_TOKEN = PropertiesService.getScriptProperties().getProperty("LINE_NOTIFY_ACCESS_TOKEN");

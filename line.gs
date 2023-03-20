@@ -2,7 +2,8 @@
  * LINEに通知を送る
  */
 function sendMessage(message){
-  const token = LINE_NOTIFY_ACCESS_TOKEN
+  const token = LINE_NOTIFY_ACCESS_TOKEN;
+  // const token = TEST_LINE_NOTIFY_ACCESS_TOKEN;
   const url = 'https://notify-api.line.me/api/notify';
 
   const options ={

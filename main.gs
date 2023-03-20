@@ -2,6 +2,7 @@ function main() {
   const { date, rankings  } = fetchForecastData();
   // 今日の占いでなければスキップする
   if(new Date(date).toDateString() != new Date().toDateString()){
+    sendMessage('\n\n今日の占いはお休みです！');
     return;
   }
   let message = ''; // 送信メッセージ
